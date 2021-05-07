@@ -37,13 +37,14 @@ router.get('/:id', async(req, res) => {
 
 // create new product
 router.post('/', async (req, res) => {
+
   try {
     const proData = await Product.create(req.body);
     res.status(200).json(proData);
   } catch (err) {
     res.status(400).json(err);
   }
-
+});
 
   
  //this helps update products
@@ -55,6 +56,7 @@ router.post('/', async (req, res) => {
     } catch (err) {
       res.status(400).json(err);
     }
+  });
 
 
 router.delete('/:id', async(req, res) => {
