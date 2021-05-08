@@ -2,6 +2,9 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description 
 Build a back end for an e-commerce site by modifying starter code. Using Express.js and sequelize we will be interacting with the MySQL database.
+## Insomnia test run demo
+<img width="1429" alt="Screen Shot 2021-05-07 at 11 58 34 PM" src="https://user-images.githubusercontent.com/78196245/117525462-69cb1380-af90-11eb-9d97-f2e6d60602b4.png">
+
   ## Table of Contents 
 
   * [Installation](#installation)
